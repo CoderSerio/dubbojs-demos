@@ -1,0 +1,30 @@
+# General ignores for Node.js projects
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-error.log*
+.pnp.*
+
+# Monorepo specific ignores
+.pnpm/
+
+# Ignore individual package lock files in favor of the root one
+packages/*/package-lock.json
+packages/*/yarn.lock
+
+# Editor-specific files and directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+*.tmp
+*.log
+*.tmp.*
+*tmbundle
+
+# TypeScript or other compiled output
+packages/*/lib
+packages/*/es
+packages/*/build

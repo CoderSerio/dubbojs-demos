@@ -8,5 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@apachedubbo/dubbo": "3.0.0-alpha",
+    "@apachedubbo/dubbo-node": "3.0.0-alpha",
+    "@apachedubbo/dubbo-web": "3.0.0-alpha",
+    "@apachedubbo/protoc-gen-apache-dubbo-es": "3.0.0-alpha",
+    "@bufbuild/protobuf": "^1.8.0",
+    "@bufbuild/protoc-gen-es": "^1.8.0",
+    "@types/node": "^20.11.30",
+    "vite": "^5.2.4"
+  }
 }
